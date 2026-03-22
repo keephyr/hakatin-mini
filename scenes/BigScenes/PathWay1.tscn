@@ -1,50 +1,50 @@
-[gd_scene load_steps=5 format=3 uid="uid://4esho1i62id8"]
+[gd_scene format=3 uid="uid://4esho1i62id8"]
 
 [ext_resource type="PackedScene" uid="uid://01d2yvedff53" path="res://scenes/Small scenes/SmallTrees1.tscn" id="1_ffnnq"]
 [ext_resource type="PackedScene" uid="uid://u0l704q0o3pe" path="res://scenes/Small scenes/Path1.tscn" id="2_gqxb6"]
 [ext_resource type="PackedScene" uid="uid://bmm3jf5rsktt2" path="res://Models/big_stone.fbx" id="3_6c5yl"]
 [ext_resource type="PackedScene" uid="uid://cs1fcvd6mx0i3" path="res://Models/bush.fbx" id="4_4lew4"]
 
-[node name="Pathway1" type="Node3D"]
+[node name="Pathway1" type="Node3D" unique_id=686581152]
 
-[node name="SmallTress1" parent="." instance=ExtResource("1_ffnnq")]
+[node name="SmallTress1" parent="." unique_id=554816982 instance=ExtResource("1_ffnnq")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 10, 0, 10)
 
-[node name="SmallTress2" parent="." instance=ExtResource("1_ffnnq")]
+[node name="SmallTress2" parent="." unique_id=929129204 instance=ExtResource("1_ffnnq")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -10, 0, 10)
 
-[node name="Path1" parent="." instance=ExtResource("2_gqxb6")]
+[node name="Path1" parent="." unique_id=1315874779 instance=ExtResource("2_gqxb6")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
 
-[node name="Path2" parent="." instance=ExtResource("2_gqxb6")]
+[node name="Path2" parent="." unique_id=1548093215 instance=ExtResource("2_gqxb6")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 10)
 
-[node name="SmallTress3" parent="." instance=ExtResource("1_ffnnq")]
+[node name="SmallTress3" parent="." unique_id=620257209 instance=ExtResource("1_ffnnq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
 
-[node name="SmallTress4" parent="." instance=ExtResource("1_ffnnq")]
+[node name="SmallTress4" parent="." unique_id=593726324 instance=ExtResource("1_ffnnq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, 0)
 
-[node name="Path3" parent="." instance=ExtResource("2_gqxb6")]
+[node name="Path3" parent="." unique_id=346978357 instance=ExtResource("2_gqxb6")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.371139e-07, 0, -10)
 
-[node name="SmallTress5" parent="." instance=ExtResource("1_ffnnq")]
+[node name="SmallTress5" parent="." unique_id=433974141 instance=ExtResource("1_ffnnq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -10)
 
-[node name="SmallTress6" parent="." instance=ExtResource("1_ffnnq")]
+[node name="SmallTress6" parent="." unique_id=1395943270 instance=ExtResource("1_ffnnq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -10)
 
-[node name="big_stone" parent="." instance=ExtResource("3_6c5yl")]
+[node name="big_stone" parent="." unique_id=1138516893 instance=ExtResource("3_6c5yl")]
 transform = Transform3D(-0.89695764, 0, 0.4421165, 0, 1, 0, -0.4421165, 0, -0.89695764, -6.2203784, -0.44583583, 10.653303)
 
-[node name="big_stone2" parent="." instance=ExtResource("3_6c5yl")]
+[node name="big_stone2" parent="." unique_id=1157161274 instance=ExtResource("3_6c5yl")]
 transform = Transform3D(-0.027991354, 0, 0.99960816, 0, 1, 0, -0.99960816, 0, -0.027991354, 4.8210635, -0.44583583, -7.9200697)
 
-[node name="bush" parent="." instance=ExtResource("4_4lew4")]
+[node name="bush" parent="." unique_id=1978667027 instance=ExtResource("4_4lew4")]
 transform = Transform3D(-0.08959664, -0.0028438636, -0.99597406, -0.031724762, 0.99949664, 2.3283064e-10, 0.9954727, 0.03159704, -0.08964177, -3.6112318, -0.020972248, -4.4714794)
 
-[node name="bush2" parent="." instance=ExtResource("4_4lew4")]
+[node name="bush2" parent="." unique_id=644784001 instance=ExtResource("4_4lew4")]
 transform = Transform3D(0.056166552, 0, 0.89824563, 0, 0.9, 0, -0.89824563, 0, 0.056166552, 3.4898734, 0, 5.8978004)
 
-[node name="bush3" parent="." instance=ExtResource("4_4lew4")]
+[node name="bush3" parent="." unique_id=1333786906 instance=ExtResource("4_4lew4")]
 transform = Transform3D(0.63304317, 0, 0.7741165, 0, 1, 0, -0.7741165, 0, 0.63304317, -4.221837, 0, 11.512)
